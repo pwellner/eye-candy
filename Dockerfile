@@ -1,4 +1,4 @@
-FROM node:10.13-stretch
+FROM node:10-buster
 RUN mkdir -p /www/src
 RUN mkdir /www/view
 WORKDIR /www
